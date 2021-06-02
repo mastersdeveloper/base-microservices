@@ -1,0 +1,29 @@
+
+Django Rest Framework
+
+1° - instalamos Django
+    * pip install django
+    * pip install djangorestframework
+
+
+2° - Creamos el proyecto usando Django
+    * django-admin startproject <nombre proyecto> ==> ejemplo: django-admin startproject mdjango
+    * django-admin startapp quickstart
+
+
+3° - Para ejecutar el proyecto
+    * python manage.py runserver
+
+Nota:
+- Dentro del contenedor backend podemos crear otro proyecto con el siguiente comando:
+    * python manage.py startapp <nombre proyecto> ==> ejemplo: python manage.py startapp products
+
+- Para realizar una migracion en el backend desde el codigo y se refleje en la base de datos usar el siguiente comando:
+    * python manage.py makemigrations ==> crea un archivo para la migracion
+    * python manage.py migrate ==> completa la migracion y se refleja en la base de datos
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Docker
+
+- Ingresando a un container creado con docker-compose
+    * docker-compose exec <nombre contenedor> sh => ejemplo: docker-compose exec backend sh
