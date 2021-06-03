@@ -27,3 +27,10 @@ Docker
 
 - Ingresando a un container creado con docker-compose
     * docker-compose exec <nombre contenedor> sh => ejemplo: docker-compose exec backend sh
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Flask
+
+- Correr el servicio flask: python main.py
+
